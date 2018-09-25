@@ -22,16 +22,16 @@ Here are some example commands:
 
 ```shell
 # 5-ways MTL Reptile.
-python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 ----learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 5 --checkpoint model_checkpoints/reptile_metatransfer_5ways --gpu 0 --metatransfer
+python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 --learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 5 --checkpoint model_checkpoints/reptile_metatransfer_5ways --gpu 0 --metatransfer
 
 # 20-ways MTL FOML.
-python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 -- --learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 20 --checkpoint model_checkpoints/foml_metatransfer_20ways --gpu 0 --metatransfer --foml
+python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 --learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 20 --checkpoint model_checkpoints/foml_metatransfer_20ways --gpu 0 --metatransfer --foml
 
 # 5-ways Reptile.
-python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 ----learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 5 --checkpoint model_checkpoints/reptile_5ways --gpu 0
+python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 --learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 5 --checkpoint model_checkpoints/reptile_5ways --gpu 0
 
 # 20-ways FOML.
-python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 -- --learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 20 --checkpoint model_checkpoints/foml_20ways --gpu 0 --foml
+python -u run_miniimagenet.py --inner-batch 20 --inner-iters 10 --meta-step 1 --meta-batch 5 --meta-iters 100000 --learning-rate 0.001 --meta-step-final 0 --train-shots 15 --classes 20 --checkpoint model_checkpoints/foml_20ways --gpu 0 --foml
 ```
 
 For more information about the training args we refer to Reptile repo.
