@@ -53,3 +53,13 @@ python -u run_miniimagenet.py --shots 1 --eval-batch 15 --eval-iters 50 --learni
 # 20-ways 1-shot FOML.
 python -u run_miniimagenet.py --shots 1 --eval-batch 15 --eval-iters 50 --learning-rate 0.001 --classes 20 --checkpoint model_checkpoints/reptile_20ways --transductive --gpu 0 --foml --pretrained
 ```
+# Citation
+If you find this useful for your research, please cite the following paper.
+```shell
+@inproceedings{metatransferaaai,
+   author    = {Amir Erfan Eshratifar, Mohammad Saeed Abrishami, David Eigen, Massoud Pedram},
+   title     = {A Meta-Learning Approach for Custom Model Training},
+   booktitle = {Association for the Advancement of Artificial Intelligence (AAAI)},   
+   year      = {2019},
+}
+```
