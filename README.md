@@ -55,7 +55,7 @@ python -u run_miniimagenet.py --shots 1 --eval-batch 15 --eval-iters 50 --learni
 ```
 # Citation
 If you find this useful for your research, please cite the following paper.
-```shell
+```
 @inproceedings{metatransferaaai,
    author    = {Amir Erfan Eshratifar, Mohammad Saeed Abrishami, David Eigen, Massoud Pedram},
    title     = {A Meta-Learning Approach for Custom Model Training},
